@@ -2,13 +2,10 @@
 // that returns a boolean indicating whether or 
 // not a string is a palindrome.
 
-
-console.log("Racecar");
+console.log(isPalindrome("Racecar"));                 // logs 'true'
 console.log(isPalindrome("A car, a man, a maraca"));  // logs 'true'
 console.log(isPalindrome("level"));                   // logs 'true'
 console.log(isPalindrome("levels"));                  // logs 'false'
-
-
 
 // Solution 
 function isPalindrome(str) {
